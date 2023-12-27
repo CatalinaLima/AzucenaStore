@@ -28,7 +28,7 @@ function Homepage() {
   return (
     <div>
         <div className='header'>
-                <img className="encabezado" src="public/imagen_encabezado.jpg" alt="Encabezado" />
+                <img className="encabezado" src="public/assets/imagen_encabezado.jpg" alt="Encabezado" />
                 <h1 className='titleh1'>AZUCENA COLLECTION</h1>
             </div>
       <section className="section1">
@@ -49,37 +49,37 @@ function Homepage() {
                 <div className="image-grid">
                     <Link to = '/category/homedecor' >
                         <div className="featured-item">
-                            <img className='hpimg2' src="public/imagen_destacada1.jpg" alt="Destacado 1" />
+                            <img className='hpimg2' src="public/assets/imagen_destacada1.jpg" alt="Destacado 1" />
                             <p className='category-description'>HOME DECOR</p>
                         </div>
                     </Link>
                     <Link to = '/category/plantaccessories' >
                     <div className="featured-item">
-                        <img className='hpimg2' src="public/imagen_destacada2.jpg" alt="Destacado 2" />
+                        <img className='hpimg2' src="public/assets/imagen_destacada2.jpg" alt="Destacado 2" />
                         <p>PLANT ACCESORIES</p>
                     </div>
                     </Link>
                     <Link to = '/category/furniture' >
                     <div className="featured-item">
-                        <img className='hpimg2' src="public/imagen_destacada3.jpg" alt="Destacado 3" />
+                        <img className='hpimg2' src="public/assets/imagen_destacada3.jpg" alt="Destacado 3" />
                         <p>FURNITURE</p>
                     </div>
                     </Link>
                     <Link to = '/category/lighting' >
                     <div className="featured-item">
-                        <img className='hpimg2' src="public/imagen_destacada4.jpg" alt="Destacado 4" />
+                        <img className='hpimg2' src="public/assets/imagen_destacada4.jpg" alt="Destacado 4" />
                         <p>LIGHTNING</p>
                     </div>
                     </Link>
                     <Link to = '/category/mirrors' >
                     <div className="featured-item">
-                        <img className='hpimg2' src="public/imagen_destacada5.jpg" alt="Destacado 5" />
+                        <img className='hpimg2' src="public/assets/imagen_destacada5.jpg" alt="Destacado 5" />
                         <p>MIRRORS</p>
                     </div>
                     </Link>
                     <Link to = '/category/kitchenware' >
                     <div className="featured-item">
-                        <img className='hpimg2' src="public/imagen_destacada6.jpg" alt="Destacado 6" />
+                        <img className='hpimg2' src="public/assets/imagen_destacada6.jpg" alt="Destacado 6" />
                         <p>KITCHENWARE</p>
                     </div>
                     </Link>
@@ -93,7 +93,7 @@ function Homepage() {
                         <button className='boton'>LEARN MORE</button>
                     </div>
                     <div>
-                        <img className='hpimg3' src="public/picturehp1.jpg" alt="decor" />
+                        <img className='hpimg3' src="public/assets/picturehp1.jpg" alt="decor" />
                     </div>
                 </div>
             </section>
