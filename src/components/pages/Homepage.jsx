@@ -49,7 +49,7 @@ function Homepage() {
                 <div className="image-grid">
                     <Link to = '/category/homedecor' >
                         <div className="featured-item">
-                            <img className='hpimg2' src="assets/imagen_destacada1.jpg" alt="Destacado 1" />
+                            <img className='hpimg2' src="/assets/imagen_destacada1.jpg" alt="Destacado 1" />
                             <p className='category-description'>HOME DECOR</p>
                         </div>
                     </Link>
