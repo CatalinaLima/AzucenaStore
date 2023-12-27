@@ -2,7 +2,7 @@ import { useContext, useEffect } from 'react'
 import { cartContext } from '../../context/cartContext'
 import './NavBar.css'
 import {Link, useLocation} from 'react-router-dom'
-import cart from '/assets/cart.jpg'
+import cart from '/cart.jpg'
 
 
 
@@ -21,7 +21,7 @@ export default function NavBar() {
                 <li className="logo">
                     <h2>
                         <Link to="/">
-                            <img src={'public/assets/azucenalogo.png'} alt="Logo" />
+                            <img src={'public/azucenalogo.png'} alt="Logo" />
                         </Link>
                     </h2>
                 </li>
