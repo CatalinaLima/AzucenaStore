@@ -1,0 +1,17 @@
+.footer {
+    margin-top: 50px;
+    background-color: #ffffff;
+    color: rgb(37, 37, 37);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-icons a {
+    color: rgb(39, 39, 39);
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #508565;
+  }

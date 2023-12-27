@@ -1,0 +1,67 @@
+.nav-menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px; /* Add padding for spacing around the logo and links */
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  height: 100px;
+  margin: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1em;
+  color: rgb(40, 40, 40);
+  margin-right: 10px; /* Add spacing between nav links */
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: rgb(19, 19, 17);
+}
+
+.nav-link.active {
+  color: rgb(80, 18, 156);
+  font-weight: 600;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px; /* Adjust padding for spacing on both sides */
+  flex: 1; /* Allow the logo to take up available space */
+}
+
+
+.logo img {
+  height: 30px; /* Adjust the height of the logo */
+}
+
+.cart-widget {
+  display: flex;
+  align-items: center;
+  margin-right: 20px; /* Adjust spacing to the right */
+}
+
+.cart-widget a {
+  text-decoration: none;
+  color: rgb(44, 44, 43);
+  font-size: 1em;
+  margin-right: 20px; /* Add spacing between cart and nav links */
+  transition: color 0.3s ease;
+}
+
+.cart-widget a:hover {
+  color: rgb(19, 19, 17);
+}
+
+.CartImg {
+  height: 25px; /* Adjust the height of the logo */
+  margin-right: 10px;
+}
