@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { getData } from '../../services/firebase';
 import Loader from '../Loader/Loader';
-import './Homepage.css'
+import './HomePage.css'
 
 function Homepage() {
   const [products, setProducts] = useState([]);
